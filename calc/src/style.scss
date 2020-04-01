@@ -1,0 +1,46 @@
+.main {
+  text-align: center;
+}
+.activity {
+  display: flex;
+  flex-direction: column;
+  &__item {
+    display: flex;
+    font-display: row;
+    align-self: center;
+  }
+}
+input[type="submit"] {
+  margin-top: 20px;
+  width: 40%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  width: 30%;
+
+  padding: 12px 20px;
+  margin: 8px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
